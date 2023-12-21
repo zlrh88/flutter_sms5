@@ -7,10 +7,11 @@ class Beranda extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("Beranda")),
+      drawer: Sidebar(),
+      appBar: AppBar(title: Text("beranda")),
       body: Center(
-        child: Text("Selamat Datang"),
-      ),
-    );
-  }
+      child: Text("Selamat Datang"),
+       ),
+      );
+    } 
 }
